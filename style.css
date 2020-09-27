@@ -1,0 +1,80 @@
+div {
+  width: 100%;
+  height: 85vh;
+  background: linear-gradient(-180deg, white, darksalmon);
+}
+
+
+
+h1 {
+  font-size: 50px; 
+  color: darkslategrey;
+  font-family: Quicksand, serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 5px solid darkslategrey;
+  position: absolute;
+  padding: 11rem 11rem;
+  top: 25%;
+  left: 27%;
+
+}
+
+p {
+  color: white;
+  font-family: 'Special Elite', cursive;
+  font-size: 24px;
+  position: absolute;
+  padding: 8rem 4rem;
+  top: 26%;
+  left: 27%;
+
+}
+
+img {
+  width: 1000px;
+  display: block;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 12px;
+}
+
+.btn {
+  border: 1px solid darksalmon;
+  background: darkslategray;
+  padding: 10px 20px;
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pinter;
+  margin: 10px;
+  color: white;
+  position: relative;
+  left: 39%;
+  top: -35%;
+  box-shadow: 0 0 10px;
+  border-radius: 6px;
+  
+
+}
+
+.btn:hover {
+  color: darkslategrey;
+  background: white;
+  cursor: pointer;
+}
+
+.btn:hover:before {
+  transition: .5s;
+  opacity: .4;
+}
+
+.btn:hover:after {
+  transition: .5s;
+  opacity: 1;
+}
+
+.btn:active {
+  color: darkslategray;
+  background: darksalmon;
+}
